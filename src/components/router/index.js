@@ -1,10 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "@/components/common/home/Home";
-import Position from "@/components/common/position/Position";
-import Release from "@/components/common/release/Release";
-import Message from "@/components/common/message/Message";
-import Mine from "@/components/common/mine/Mine";
+import Home from "@/components/home/Home";
+import Position from "@/components/position/Position";
+import Release from "@/components/release/Release";
+import Message from "@/components/message/Message";
+import Mine from "@/components/mine/Mine";
 
 Vue.use(Router)
 const routerPush = Router.prototype.push
